@@ -9,16 +9,20 @@ h1{
     margin-top:0;
     font-size:80px; 
     font-family: 'Sacramento', cursive;
+    color: rgb(7, 75, 75);
 
     
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    color: rgb(7, 75, 75);
+
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: rgb(7, 75, 75);
 
 }
 .profile{
@@ -29,7 +33,26 @@ h3{
       
 }
 
+.skills{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.drawing{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.craftworks{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
 
+.craft{
+    margin-top: 60px;
+}
 
 .top-container{
     background-color:rgb(105, 243, 248);
@@ -46,3 +69,57 @@ h3{
     right: 300px;
     top:50px;
 }
+.bottom-section{ 
+    padding-top: 30px;
+    background-color: rgb(105, 243, 248);
+    line-height: 2;
+    margin-top: 60px;
+    color: white;
+
+}
+.footer-link{
+    color: rgb(7, 75, 75);
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(105,243,248,2);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(105,243,248,2);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    width: 6%;
+    border-color: #a2a5a5;
+    border-width: 5px;
+
+}
+.contact-me{
+    padding-top: 30px;
+}
+.middle-section{
+    line-height: 2;
+    padding-top: 20px;
+    
+}
+
