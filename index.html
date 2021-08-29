@@ -8,6 +8,15 @@
     <link rel="icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900,500,300|Ubuntu" rel="stylesheet">
+
+    <!-- Boostratp CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--    Custom CSS-->
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital@1&family=Sacramento&display=swap"
         rel="stylesheet">
@@ -15,61 +24,113 @@
 </head>
 
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/bluecloud.png" alt="cloud image""width=" 100" height="120">
-        <h1>I'm Dimple </h1>
-        <h3>a student</h3>
-        <img class="bottom-cloud" src="images/bluecloud.png" alt="cloud image""width=" 100" height="120">-
-        <img src="images/mountain.jpg" alt="mountain image""width=" 500" height="500">
+    <section class="main-section">
 
-    </div>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">DA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-name" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="drawing.html">Drawing</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="coding.html">Coding</a>
 
-    <div class="middle-section">
-        <div class="profile">
-            <img src="images/profile.png" alt="profile" width="200" height="200">
-            <h2>Hello.</h2>
-            <p>I'm a student of St.Thomas maticulatuon higher secondary school.I'm insterested in
-                DRAWING.I like playing with cats.Ialso like doing crafts out of waste materials.</p>
-        </div>
-
-        <hr>
-         <h2>My Skills</h2>
-        <div class="skills">
-            <div class"skill-row">
-              <img class="drawing" src="images/drawing.jpg" alt="skills">
-                <h3>Drawing</h3>
-                <p>I took an interest in drawing at my fifth standard.I would like to draw pictures colorful.I have an
-                    youtube channel of myself on drawing.</p>
-
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-           <div class="skill-row">
-            <img class="craftworks"src="images/craft.webp" alt="craftwork">
-            <h3 class="craft">Craft Works</h3>
-            <p>I love doing crafts out of waste materials.Crafts improves our creativity skills and its a kind of waste recyling process.I feel happy doing it.</p>
-           </div>
-        </div> 
-         <hr>
-         <div class="contact-me">
-                <h2>Get In Touch</h2>
-                <h3>If you would like drawing as much as I do</h3>
-                <p>like drawing a lot like me ?Then let's create art together!</p>
-             <form> <a class="btn" href="mailto:dimpleabirami@gmail.com"><button class="favorite styled"
-                type="button">
-        CONTACT ME
-        </button>
-        </a></form>
-            
-         </div>
-        
-        <div class="bottom-section">
+        </nav>
 
-            <a class="footer-link" href="https://www.twitter.com">Twitter</a>
-            <a class="footer-link" href="https://youtube.com/channel/UCYeAuFRs2UovvFhV7Q9ffPw">youtube</a>
-
-            <p> 2021 DimpleAbirami.</p>
+        <div class="top-container text-center" id="title">
+            <h1>I'm Dimple </h1>
+            <h3>a student</h3>
         </div>
+    </section>
+    <section class="middle-section text-center">
+        <div class="profile" id="about">
+            <img class="profile-icon" src="images/profile.png" alt="profile" width="200" height="200">
+            <h2 class="profile-title">Hello.</h2>
+            <p>I'm a student of St.Thomas maticulatuon higher secondary school.I'm insterested in
+                DRAWING.I like playing with cats. I also like doing crafts out of waste materials.</p>
+        </div>
+        <hr>
+        <div class="skills-container" id="skills">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill-row">
+                    <img class="drawing" src="images/drawing.png" alt="skills" width="25%">
+                    <h3 class="col">Drawing</h3>
+                    <p>I took an interest in drawing at my fifth standard.I would like to draw pictures colorful.I
+                        have
+                        an
+                        youtube channel of myself on drawing. <br><a href="drawing.html">View my drawings</a></p>
 
+                </div>
+                <div class="skill-row">
+                    <img class="craftworks" src="images/craft.webp" alt="craftwork" width="25%">
+                    <h3 class="craft ">Craft Works</h3>
+                    <p>I love doing crafts out of waste materials.Crafts improves our creativity skills and its a kind
+                        of
+                        waste
+                        recyling process.I feel happy doing it. </p>
+                </div>
 
+                <div class="skill-row">
+                    <img class="drawing" src="images/code.webp" alt="craftwork" width="25%">
+                    <h3 class="craft ">Coding</h3>
+                    <p>I love coding. T love to create weebsites using HTML, CDD, JS. I had created this portfolio using
+                        HTML, CSS, JS with Bootstrap. <br><a href="coding.html">View my projects</a></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me" id="contact">
+            <h2>Get In Touch</h2>
+            <h3>If you would like drawing as much as I do</h3>
+            <p>like drawing a lot like me ?Then let's create art together!</p>
+            <form><a class="btn" href="mailto:dimpleabirami@gmail.com">
+                    <button class="favorite styled" type="button">
+                        CONTACT ME
+                    </button>
+                </a></form>
+
+        </div>
+    </section>
+    <section class="bottom-section text-center">
+        <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/dimple-abirami-376120217/">Linkedin</a>
+        <a class="footer-link" target="_blank" href="https://youtube.com/channel/UCYeAuFRs2UovvFhV7Q9ffPw">Youtube</a>
+
+        <p> 2021 Dimple Abirami.</p>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+    </section>
 </body>
 
 </html>
