@@ -73,11 +73,13 @@ p {
 .main-section {
     height: 100vh;
     background-image: url("/images/galaxy.gif");
+    background-color: #222831;
 }
 
 .top-container {
     padding-top: 40vh;
     background-image: linear-gradient(rgb(255, 1, 1));
+
 }
 
 .bottom-section {
